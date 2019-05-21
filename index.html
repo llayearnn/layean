@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ZH-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-w.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <title>bootstrap项目实战</title>
+    <link rel="icon" href="../picture/bitbug_favicon.ico" type="image/x-icon">
+</head>
+<body>
+<!--导航-->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!--小屏幕导航按钮何logo-->
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><!--进行绑定，务必记得是.navbar-collapse（有点）-->
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand">我的学院</a>
+        </div>
+        <!--小屏幕导航按钮何logo-->
+        <!--导航-->
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#html5">论坛</a></li>
+                <li><a href="#bootstrap">前端开发</a></li>
+                <li><a href="#course">最新课程</a></li>
+                <li><a href="#app">移动APP</a></li>
+                <li><a href="#contact">联系我们</a></li>
+
+            </ul>
+        </div>
+        <!--导航-->
+    </div>
+</nav>
+<!--home-->
+<section id="home">
+<div class="lvjing">
+    <div class="container wow bounce" data-wow-duration="3s"><!--添加了wow bounce 实现了内容区域动画效果,data-wow-duration="5s"表示动画持续时间-->
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <h1>bootstrap实战课程等你来战！！！</h1>
+                <p>
+                    从未年轻过的人，一定无法理解这个世界的偏见;我们被世俗拆散，也要为爱情勇往直前;我们被房价羞辱;也要让简陋的现实变的温暖;我们被权威漠视，也要为自己的天分保持骄傲;我们被平庸折磨，也要开始说走就走的冒险;所谓的光辉岁月，并不是波澜闪耀的日子，而是无人问津时，你对梦想的偏执;你是否有勇气对自己忠诚到底
+                </p>
+                <img src="xk.jpg" alt="" class="img-responsive">
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!--bbs-->
+<sectio id="bbs">
+    <div class="container">
+        <div class="row wow wobble"data-wow-duration="3s" >
+            <div class="col-md-4">
+                <a href="http://xiaomi.com" target="_blank">
+                <img src="anzhuo.jpg" alt=""class="img-responsive">
+                <h3>Android开发</h3>
+                <p>开发技术交流，问题求助，实战案例分享</p>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="http://apple.com" target="_blank">
+                <img src="apple1.jpg" class="img-responsive" alt="">
+                <h3>IOS开发</h3>
+                <p>开发技术交流，问题求助，实战案例分享</p>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://v3.bootcss.com/components/" target="_blank">
+                <img src="di.jpg" alt="" class="img-responsive">
+                <h3>嵌入式开发</h3>
+                <p>开发技术交流，问题求助，实战案例分享</p>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</sectio>
+<!--html5-->
+<section id="html5">
+    <div class="contain wow jello"data-wow-duration="3s">
+        <div class="col-md-6">
+            <h2>HTML5前段开发</h2>
+            <p>十八线前段伪资深工程师倾情打造！助你完成普通程序员到优秀工程师的华丽升级！</p>
+            <p><span class="glyphicon glyphicon-tree-deciduous"></span>使用HTML5与css技术轻松实现设备自适应展示。</p>
+            <p><span class="glyphicon glyphicon-tree-deciduous"></span>清晰明了的语义代码结构、更高的可读性、更利于页面维护。</p>
+        </div>
+        <div class="col-md-6">
+            <img src="html5.jpg" alt="" class="img-responsive">
+        </div>
+    </div>
+</section>
+<!--bootstrap-->
+<section id="bootstrap">
+    <div class="contain wow bounceInDown ">
+      <div class="col-md-6">
+        <img src="bt.jpg" alt="" class="img-responsive">
+      </div>
+    <div class="col-md-6">
+            <h2>bootstrap实战教程</h2>
+            <p>bootstrap是最受欢迎的HTML5，css何js框架，用于开发响应式布局，移动设备优先的web项目</p>
+            <p><span class="glyphicon glyphicon-grain"></span>你的网站和应用bootstrap的帮助下通过同一份代码快递，有效适配手机，平板，pc设备。</p>
+            <p><span class="glyphicon glyphicon-grain"></span>bootstrap提供了全面的，美观的的文档。你能在这里找到关于HTML元素，css组件和js插件方面的详细文档</p>
+    </div>
+    </div>
+</section>
+<!--course-->
+<section id="course">
+    <div class="containner">
+        <div class="row wow rotateIn">
+            <div class="col-md-12">
+                <h2>最新课程</h2>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="kc.jpg" alt="">
+                    <a href="https://www.51zxw.net/ " target="_blank">加入学习</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="kc.jpg" alt="">
+                    <a href="https://www.51zxw.net/ " target="_blank">加入学习</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="kc.jpg" alt="">
+                    <a href="https://www.51zxw.net/ " target="_blank">加入学习</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="kc.jpg" alt="">
+                    <a href="https://www.51zxw.net/ " target="_blank">加入学习</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--移动APP-->
+<section id="app">
+    <div class="container">
+        <div class="row  wow fadeInUp">
+            <div class="col-md-6">
+                <h2>学院移动APP下载</h2>
+                <p>
+                    全新UI交互，与新网站数据同步，更加丰富的课程，开启精彩无限，语音搜索课程，喊出你想要的课程，一件收藏，方便自己重复学习，离线下载课程，在哪儿都能开！
+                </p>
+                <button class="btn btn-primary">
+                    <span class="glyphicon glyphicon-download-alt"></span>
+                    iPhone版
+                </button>
+                <button class="btn btn-primary">
+                    <span class="glyphicon glyphicon-download-alt"></span>
+                    Android版
+                </button>
+            </div>
+            <div class="col-md-6">
+                <img src="zx.gif" class="img-responsive" alt=""/>
+            </div>
+        </div>
+    </div>
+</section>
+<!--contact-->
+<section id="contact">
+    <div class="lvjing1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6  wow tada">
+                    <h2>
+                        <span class="glyphicon glyphicon-send"></span>
+                        联系我们
+                    </h2>
+                    <p>
+                        西安邮电大学经济与管理学院现有专任教师160余人，其中国务院特殊津贴专家1人，三秦学者1人。在校本科生、研究生3000余人。
+                        学院下设经济学系、工商管理系、会计学系、电子商务系等4个系，开设12个本科专业，其中省级名牌专业1个，省级特色专业1个，省级本科专业综合改革试点项目1个。有市场营销、电子商务2个省级优秀教学团队，3门省级精品课程，5门省级精品资源共享课程，拥有1个省级实验教学示范中心及1个省级人才培养模式创新实验区。师，贴心的助教，在这儿你能感受到来自五 湖四海伙伴们热情和踏实的学习态度！
+                    </p>
+                    <address>
+                        <p>
+                            <span class="glyphicon glyphicon-home"></span>
+                            &nbsp;&nbsp;
+                            西安邮电雁塔校区
+                        </p>
+                        <p>
+                            <span class="glyphicon glyphicon-phone-alt"></span>
+                            &nbsp;
+                            联系电话：1383838438
+                        </p>
+                        <p>
+                            <span class="glyphicon glyphicon-envelope"></span>
+                            &nbsp;
+                            邮箱:1255272899@qq.com
+                        </p>
+                    </address>
+                </div>
+                <div class="col-md-6  wow fadeoutdown">
+                    <form action="#" method="post">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control wow fadeInLeft " placeholder="您的姓名">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control wow fadeInRight" placeholder="邮箱">
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" class="form-control wow fadeInDown" placeholder="标题">
+                        </div>
+                        <div class="col-md-12">
+                            <textarea class="form-control wow lightSpeedIn" placeholder="留言内容" rows="4"></textarea>
+                        </div>
+                        <div class="col-md-8">
+                            <input type="submit" class="form-control wow zoomIn" value="提交">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>
+                    ©2019 Baidu 使用百度前必读 | 百科协议 | 隐私政策 | 百度百科合作平台 | 京ICP证030173号<br>京公网安备11000002000001号
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.singlePageNav.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    $(function(){
+        <!--下面这个方法（.singlePageNav()）是用来进行导航时有一个缓缓移动的效果-->
+        $('.nav').singlePageNav({
+            <!-- offset:这是对导航偏移量进行设置，距离导航栏的距离70-->
+           offset:70
+        });
+        <!-- 小屏幕导航点击关闭菜单-->
+        $('.navbar-collapse a').click(function(){
+            <!-- 每点一次向上折叠隐藏-->
+            $('.navbar-collapse').collapse('hide')
+        });
+        <!-- 内容区域动画效果-->
+        new WOW().init();
+
+
+    })
+
+
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
